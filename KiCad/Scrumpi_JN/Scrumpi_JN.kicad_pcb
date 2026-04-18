@@ -92,7 +92,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f501)
+			(layerselection 0x00000000_00000000_55555555_5755552c)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -17040,6 +17040,16 @@
 		(uuid "1204941e-dc20-416c-bf8e-753b50e7502e")
 	)
 	(gr_line
+		(start 79.68 99.98)
+		(end 79.755 129.7)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a88368c-5e27-45e9-b3f5-d5f22dd5cbb1")
+	)
+	(gr_line
 		(start 79.725 41.016721)
 		(end 79.555 83.82)
 		(stroke
@@ -17048,16 +17058,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4adc829a-7fd1-4b89-982d-be7c5103a9ca")
-	)
-	(gr_line
-		(start 79.925 99.846721)
-		(end 79.755 129.7)
-		(stroke
-			(width 0.6)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9a88368c-5e27-45e9-b3f5-d5f22dd5cbb1")
 	)
 	(gr_circle
 		(center 94.34 134.69)
@@ -29795,10 +29795,85 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "GND"
+		(at 108.77 135.77 0)
+		(layer "F.SilkS")
+		(uuid "2130ff45-90c4-4f74-a96d-dee596c9dfbc")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+5V"
+		(at 114.66 135.67 0)
+		(layer "F.SilkS")
+		(uuid "d1006fb8-1031-4c32-9087-f3df30bd9287")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-7V"
+		(at 121.2 135.6 0)
+		(layer "F.SilkS")
+		(uuid "f7686bdb-bbc8-4a3d-babc-305f006e7e70")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "PCB-J1"
 		(at 113.51 150.82 0)
 		(layer "F.SilkS")
 		(uuid "56fe2e55-7088-4bc0-a999-ce56c6f1836a")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.4)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "<LEDS>"
+		(at 80.87 99.66 90)
+		(layer "F.SilkS")
+		(uuid "add0fe1e-fc93-4d7b-96c1-1259c1aacb90")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.4)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text ">"
+		(at 80.96 43 90)
+		(layer "F.SilkS")
+		(uuid "3ac98776-e773-4cbf-9b58-c034d793a9c4")
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.4)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "<"
+		(at 81.03 131.4 90)
+		(layer "F.SilkS")
+		(uuid "1db68373-6bf0-4af5-8922-f04a57358a7f")
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -29815,31 +29890,6 @@
 			(font
 				(size 6 5.4)
 				(thickness 0.6)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "PCB-J1"
-		(at 207.55 27.75 180)
-		(layer "B.SilkS")
-		(uuid "7dfe2c3a-a38e-42c9-bda4-189c13e4a4c7")
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.5)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "SCRUMPI"
-		(at 241.75 27.55 180)
-		(layer "B.SilkS")
-		(uuid "05d67d63-f0b2-4a4f-824b-026f9b60ae8e")
-		(effects
-			(font
-				(size 5.3 5)
-				(thickness 0.8)
 			)
 			(justify left bottom)
 		)
